@@ -1,0 +1,2 @@
+# UIListViewEx_ReturnArray
+GUIListViewEx_SetEditStatus($iLV_Left_Index, "*") ; UDF index Case $cDisplay_Left_Button $aLV_List_Left = _GUIListViewEx_ReturnArray($iLV_Left_Index) If Not @error Then _ArrayDisplay($aLV_List_Left, "Returned Left") Else MsgBox(0, "Left", "Empty Array") EndIf Case $cDisplay_Right_Button $aLV_List_Right = _GUIListViewEx_ReturnArray($iLV_Right_Index) If Not @error Then _ArrayDisplay($aLV_List_Right, "Returned Right")
